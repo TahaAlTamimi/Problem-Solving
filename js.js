@@ -43,3 +43,26 @@ function FirstFactorial(num) {
 }
 console.log(FirstFactorial(4))
 */
+
+/*Q3:Have the function LongestWord(sen) take the sen parameter being passed and return the largest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty.*/
+
+//Solution:
+
+/*
+function LongestWord(sen) {
+   sen= sen.match(/[a-z0-9]+/gi);
+   a=sen[0];
+   for(i=1;i<sen.length;i++){
+ 
+     if(a.length<sen[i].length){
+       a=sen[i].length;
+       a=sen[i];
+
+
+     }
+   }
+   return a
+  
+}
+
+*/ 
